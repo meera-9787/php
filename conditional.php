@@ -22,7 +22,6 @@ switch($temprature)
 	case 70:
 	echo "nice day outside.";
 	break;
-	// removed duplicate case 70 — but since you said no organization, keeping same order
 	case 75:
 	case 78:
 	echo "ok,but a little warm,";

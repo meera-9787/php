@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>multidimensional array using for loop</title>
+</head>
+<body>
+<?php
+$arr=array(array(110,20,52),array(105,56,89,96),array(556,89,96));
+$b=0;
+for($i=0;$i<count($arr);$i++)
+{
+for($j=0;$j<count($arr[$i]);$j++)
+{
+if($arr[$i][$j]>$b)
+{
+$b=$arr[$i][$j];
+}
+}
+}
+echo$b;
+?>
+</body>
+</html>

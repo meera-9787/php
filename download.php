@@ -3,7 +3,7 @@ if(isset($_POST['file_name']))
 {
 $file=$_POST['file_name'];
 header('content-type:image/jpg');
-header('content-Disposition:attachment;filename="'"'.$file.'"'"');
+header('content-Disposition:attachment;filename="'.$file.'"');
 readfile('force_Download/'.$file);
 exit();
 }
